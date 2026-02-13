@@ -1,0 +1,36 @@
+[
+  {
+    "id": "266156a8-3652-422b-a1da-103521477421",
+    "company_id": "b9134d23-129e-43da-b92b-effc47c945a0",
+    "employee_code": "ONS-2026-0001",
+    "visitor_id": "b4d6ce15-4cf3-4771-8937-179b718e13d3",
+    "full_name": "Riya",
+    "phone": "9310448608",
+    "email": "efg@gmail.com",
+    "aadhaar_number": "123456789012",
+    "department": null,
+    "designation": null,
+    "status": "ACTIVE",
+    "date_of_joining": "2026-02-10",
+    "date_of_leaving": null,
+    "created_at": "2026-02-10T06:11:01.397855+00:00",
+    "updated_at": "2026-02-10T06:11:01.397855+00:00"
+  },
+  {
+    "id": "1dba3046-8fa5-41b6-be7b-82e2414231ee",
+    "company_id": "b9134d23-129e-43da-b92b-effc47c945a0",
+    "employee_code": "ONS-2026-0002",
+    "visitor_id": "86d99344-2207-4b55-b00f-b0909be213b9",
+    "full_name": "Aryan",
+    "phone": "9876543219",
+    "email": "dagararyan947@gmail.com",
+    "aadhaar_number": "123456789010",
+    "department": null,
+    "designation": null,
+    "status": "ACTIVE",
+    "date_of_joining": "2026-02-10",
+    "date_of_leaving": null,
+    "created_at": "2026-02-10T07:13:54.059776+00:00",
+    "updated_at": "2026-02-10T07:13:54.059776+00:00"
+  }
+]

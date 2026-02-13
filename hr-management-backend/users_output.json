@@ -1,0 +1,30 @@
+[
+  {
+    "id": "05be61c3-7c37-44e0-aef8-d335d918f3d3",
+    "email": "admin001@ons.com",
+    "role": "SUPER_ADMIN",
+    "full_name": "System Administrator",
+    "is_active": true
+  },
+  {
+    "id": "81f7f2e6-ab43-431c-afbc-4b46ed62f47b",
+    "email": "abc@gmail.com",
+    "role": "HR",
+    "full_name": "Panda ka Tate",
+    "is_active": true
+  },
+  {
+    "id": "82eee1d3-130f-40bb-aea6-5bada041bf73",
+    "email": "hr@ons.com",
+    "role": "HR",
+    "full_name": "Sarah HR Manager",
+    "is_active": true
+  },
+  {
+    "id": "63bba17d-0cbe-4831-930f-83dbeee045c1",
+    "email": "hr2@ons.com",
+    "role": "HR",
+    "full_name": "John Recruiter",
+    "is_active": true
+  }
+]
