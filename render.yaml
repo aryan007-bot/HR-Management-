@@ -1,0 +1,36 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: hr-management-backend
+    runtime: node
+    rootDir: hr-management-backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+
+  # Frontend Static Site
+  - type: static
+    name: hr-management-frontend
+    runtime: static
+    rootDir: hr-flow-manager-main
+    buildCommand: npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          name: hr-management-backend
+          type: web
+          property: host
+        property: url
