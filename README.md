@@ -48,6 +48,7 @@ The software is designed for:
 * React Native
 * Tailwind CSS
 * ShadCN UI Components
+* VITE
 
 ### Backend
 
