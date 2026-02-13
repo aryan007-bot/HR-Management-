@@ -114,7 +114,7 @@ class EmployeeService {
       await authService.register({
         email: visitor.email,
         password: 'Password@123', // Default password
-        role: 'HR', // Defaulting to HR role for now, or you can add a role field to the form
+        role: additionalData.role || 'EMPLOYEE',
         full_name: visitor.full_name,
         company_id: targetCompanyId
       });
